@@ -11,17 +11,12 @@ setup(
     author_email="dgopinath@fb.com",
     install_requires=[
         "black",
-        "dataclasses",  # py3.6 backport required by human_body_prior
         "matplotlib",
         "numpy",
         "pillow",
-        "pyrender==0.1.39",
         "scikit-learn",
         "scipy",
         "tqdm",
-        "pyglet==1.5.27",
-        "PyOpenGL==3.1.0",
-        "PyOpenGL-accelerate",
     ],
     packages=find_packages(exclude=["tests"]),
     classifiers=[
